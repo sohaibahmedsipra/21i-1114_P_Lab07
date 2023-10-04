@@ -1,0 +1,139 @@
+body
+{
+    background-image: url("./Midnight\ Embers.png");
+    color: #000000;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+    height: 100%;
+    width: 100%;
+    overflow-wrap: normal;
+    display: block;
+    line-height: 3;
+}
+
+.game
+{
+    background-color: #ffffffbe;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 20px;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: #000000 0px 0px 30px 0px;
+}
+
+.game #start
+{
+    background-color: #22c1cf;
+    border: 1px solid #729ba5;
+    border-radius: 10px;
+    box-shadow: #000000 0px 0px 10px 0px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.game #start:hover
+{
+    background-color: #1b9ca7;
+}
+
+.game #start:active
+{
+    background-color: #1b9ca7;
+    box-shadow: #000000 0px 0px 5px 0px;
+}
+
+.game #submit
+{
+    background-color: #22c1cf;
+    border: 1px solid #729ba5;
+    border-radius: 10px;
+    box-shadow: #000000 0px 0px 10px 0px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.game #submit:hover
+{
+    background-color: #1b9ca7;
+}
+
+.game #submit:active
+{
+    background-color: #1b9ca7;
+    box-shadow: #000000 0px 0px 5px 0px;
+}
+
+.game #Reset
+{
+    background-color: #22c1cf;
+    border: 1px solid #729ba5;
+    border-radius: 10px;
+    box-shadow: #000000 0px 0px 10px 0px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.game #Reset:hover
+{
+    background-color: #1b9ca7;
+}
+
+.game #Reset:active
+{
+    background-color: #1b9ca7;
+    box-shadow: #000000 0px 0px 5px 0px;
+}
+
+.container
+{
+
+    margin: 0 auto;
+    padding: 50px;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.container h1{
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.container #answers
+{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.container #answers label
+{
+    font-size: 24px;
+    color: #000000;
+}
